@@ -1,0 +1,83 @@
+
+
+.body{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(BG.webp);
+    background-size: cover;
+    height: 100vh;
+}
+
+.body h1{
+    font-size: 50px;
+    color: white;
+}
+
+.body label{
+    font-size: 20px;
+}
+
+.body input{
+    margin: 20px;
+    width: 20%;
+    padding: 10px;
+    border: none;
+}
+
+.body input:focus{
+    outline: none;
+}
+
+.body p{
+    font-size: 20px;
+
+}
+
+button{
+    padding: 10px;
+    background-color: crimson;
+    color: wheat;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-property: all;
+    transition-duration: 0.4s;
+
+}
+button:hover{
+    background-color: red;
+}
+
+.body p a{
+    margin-left: 20px;
+    color: red;
+}
+
+select{
+    margin: 20px;
+    width: 20%;
+    padding: 10px;
+    border: none;
+}
+
+.body .Username-error{
+    color: red;
+    font-size: 18px;
+    display: none;
+
+}
+
+
+.body .Password-error{
+    color: red;
+    font-size: 18px;
+    display: none;
+
+}
